@@ -38,6 +38,8 @@ build-backend = "hatchling.build"
 
 [tool.ruff]
 line-length = 100
+
+[tool.ruff.lint]
 ignore = ["E203"]
 
 [tool.pytest.ini_options]
